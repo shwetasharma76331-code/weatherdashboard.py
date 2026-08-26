@@ -217,7 +217,6 @@ if st.button("🔍 Get Weather", use_container_width=True):
 
             st.caption(
                 f"Last updated: {current_time}"
-            )import streamlit as st
 import requests
 from datetime import datetime
 
