@@ -214,8 +214,6 @@ if st.button("🔍 Get Weather", use_container_width=True):
             current_time = datetime.now().strftime(
                 "%d %B %Y, %I:%M %p"
             )
-
-            st.caption(
                 f"Last updated: {current_time}"
 import requests
 from datetime import datetime
